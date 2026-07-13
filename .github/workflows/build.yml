@@ -27,10 +27,16 @@ jobs:
         run: uv sync
       - name: Page Build
         run: uv run properdocs build -v
+      - name: Get Github App Token
+        uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - name: Deploy to Github Pages
         if: ${{ github.event_name == 'push' }}
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ steps.app-token.outputs.token }}
           publish_dir: ./site
           force_orphan: true
