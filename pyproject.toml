@@ -6,6 +6,3 @@ dependencies = [
     "mkdocs-material>=9.7.6",
     "properdocs>=1.6.7",
 ]
-
-[tool.uv]
-index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
