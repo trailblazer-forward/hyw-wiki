@@ -1,5 +1,6 @@
-site_name: HYW
+site_name: HYW-Wiki
 site_url: https://hyw.lolic0n.top/
-repo_url: https://github.com/trailblazer-forward/hyw
+repo_url: https://github.com/trailblazer-forward/hyw-wiki
+repo_name: hyw-wiki
 theme:
   name: material
