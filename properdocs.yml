@@ -2,5 +2,39 @@ site_name: HYW-Wiki
 site_url: https://hyw.lolic0n.top/
 repo_url: https://github.com/trailblazer-forward/hyw-wiki
 repo_name: hyw-wiki
+nav:
+  - 首页: index.md
+  - 化学:
+    - 原子结构:
+      - 电子排布: chemistry/atomic-structure/electronic-configuration.md
+  - 施工列表: in-production.md
 theme:
   name: material
+  custom_dir: overrides
+  favicon: favicon.ico
+  icon:
+    logo: material/school
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+plugins:
+  - meta
+markdown_extensions:
+  - toc:
+      permalink: True
+      baselevel: 2
+  - mkdocs_graphviz
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/contrib/mhchem.min.js
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+

@@ -25,6 +25,10 @@ jobs:
       - uses: astral-sh/setup-uv@v8.3.2
       - name: Install Python dependencies
         run: uv sync
+      - name: Install graphviz
+        run: |
+          sudo apt update
+          sudo apt install -y graphviz
       - name: Page Build
         run: uv run properdocs build -v
       - name: Get Github App Token
