@@ -1,3 +1,16 @@
+{% set copyright = config.extra.copyright %}
+{% if page and page.meta and page.meta.copyright is string %}
+    {% set copyright = page.meta.copyright%}
+{% endif %}
+<hr>
+<blockquote class="page-copyright">
+    <span>
+        <i class="md-icon">
+            {% include ".icons/material/copyright.svg" %}
+        </i>
+        本页面的全部内容在 <strong>{{ copyright }}</strong> 协议之条款下提供，附加条款亦可能应用
+    </span>
+</blockquote>
 {% if page.meta.comments %}
   <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
   <script src="https://giscus.app/client.js"
@@ -15,7 +28,7 @@
         data-loading="lazy"
         crossorigin="anonymous"
         async>
-</script><!-- 同步 Giscus 主题与调色板 -->
+  </script><!-- 同步 Giscus 主题与调色板 -->
   <script>
     var giscus = document.querySelector("script[src*=giscus]")
 
@@ -27,7 +40,7 @@
         : "light"
 
       // 指示 Giscus 设置主题
-      giscus.setAttribute("data-theme", theme) 
+      giscus.setAttribute("data-theme", theme)
     }
 
     // 在文档加载后注册事件处理程序

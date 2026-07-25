@@ -2,6 +2,7 @@ site_name: HYW-Wiki
 site_url: https://hyw.lolic0n.top/
 repo_url: https://github.com/trailblazer-forward/hyw-wiki
 repo_name: hyw-wiki
+copyright: 'Copyright &copy; 2026 HYW-Wiki Team'
 nav:
   - 首页: index.md
   - 化学:
@@ -49,6 +50,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+extra:
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
 extra_javascript:
   - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
