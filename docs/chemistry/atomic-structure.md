@@ -93,6 +93,34 @@ graph {
 | 钙 (Ca) | $\mathrm{4s^2}$      |
 | 铁 (Fe) | $\mathrm{3d^6 4s^2}$ |
 
+## 轨道表示式
+
+将每一个原子轨道用一个方框表示，在方框内用上/下箭头表明电子的自旋状态。
+
+例：
+
+氢 (H)：&emsp;$
+% \etS is a global user-defined macro, see /javascripts/katex.js for the definition.
+\etS{1}{\uparrow}
+$
+
+钠 (Na)：&emsp;$
+% \etS, \etP are global user-defined macros, see /javascripts/katex.js for the definitions.
+\etS{1}{\uparrow\downarrow} \quad
+\etS{2}{\uparrow\downarrow} \quad
+\etP{2}{\uparrow\downarrow &\uparrow\downarrow & \uparrow\downarrow} \quad
+\etS{3}{\uparrow}
+$
+
+铝 (Al)：&emsp;$
+% \etS, \etP, \emptyT are global user-defined macros, see /javascripts/katex.js for the definitions.
+\etS{1}{\uparrow\downarrow} \quad
+\etS{2}{\uparrow\downarrow} \quad
+\etP{2}{\uparrow\downarrow &\uparrow\downarrow & \uparrow\downarrow} \quad
+\etS{3}{\uparrow} \quad
+\etP{3}{\uparrow & \emptyT & \emptyT}
+$
+
 # 电子排布规律
 
 ## 能量最低原理
