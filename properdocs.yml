@@ -38,6 +38,8 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: True
+      permalink_title: Anchor link to this section for reference
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {}
       baselevel: 2
   - mkdocs_graphviz
   - pymdownx.arithmatex:
