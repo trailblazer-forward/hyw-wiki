@@ -12,7 +12,7 @@ document$.subscribe(({ body }) => {
       "\\etS": "\\electronTrajectory{#1s}{|c|}{#2}",
       "\\etP": "\\electronTrajectory{#1p}{|c|c|c|}{#2}",
       "\\etD": "\\electronTrajectory{#1d}{|c|c|c|c|c|}{#2}",
-      "\\etF": "\\electronTrajectory{#1d}{|c|c|c|c|c|c|c|}{#2}",
+      "\\etF": "\\electronTrajectory{#1f}{|c|c|c|c|c|c|c|}{#2}",
       "\\emptyT": "\\hspace{0.5em}",
     },
   });
