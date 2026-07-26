@@ -9,6 +9,7 @@ nav:
     - 简介: chemistry/intro.md
     - 原子结构: chemistry/atomic-structure.md
     - 原子光谱: chemistry/atomic-spectra.md
+    - 元素周期表: chemistry/periodic-table.md
   - 施工列表: in-production.md
 theme:
   name: material
