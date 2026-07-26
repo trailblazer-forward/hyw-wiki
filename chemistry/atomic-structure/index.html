@@ -14,7 +14,7 @@
         <link rel="prev" href="../intro/">
       
       
-        <link rel="next" href="../../in-production/">
+        <link rel="next" href="../atomic-spectra/">
       
       
         
@@ -645,6 +645,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../atomic-spectra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    原子光谱
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../periodic-table/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    元素周期表
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -907,7 +963,7 @@
 <li><strong>电子云</strong>：按电子在不同位置出现的概率随机取样得到的结果图</li>
 <li><strong>电子云轮廓</strong>：为了直观展现电子云分布范围，将一个电子出现概率高（通常高于 90%）的区域轮廓称为电子云轮廓</li>
 <li><strong>能层</strong>：按离原子核的平均距离从近到远划分成的若干层级，分别用 <span class="arithmatex">\(\mathrm{K}\)</span>, <span class="arithmatex">\(\mathrm{L}\)</span>, <span class="arithmatex">\(\mathrm{M}\)</span>, <span class="arithmatex">\(\mathrm{N}\)</span>, <span class="arithmatex">\(\mathrm{O}\)</span>, <span class="arithmatex">\(\mathrm{P}\)</span>, <span class="arithmatex">\(\mathrm{Q}\)</span> 表示</li>
-<li><strong>能级</strong>：每一个能层中决定能量高低顺序的不同亚层。同一能层中，第 n 能层中的能级按能量由低至高分别用 <span class="arithmatex">\(n\mathrm{s}\)</span>, <span class="arithmatex">\(n\mathrm{p}\)</span>, <span class="arithmatex">\(n\mathrm{d}\)</span>, <span class="arithmatex">\(n\mathrm{f}\)</span> 表示。</li>
+<li><strong>能级</strong>：每一个能层中决定能量高低顺序的不同亚层。同一能层中，第 n 能层中的能级按能量由低至高分别用 <span class="arithmatex">\(n\mathrm{s}\)</span>, <span class="arithmatex">\(n\mathrm{p}\)</span>, <span class="arithmatex">\(n\mathrm{d}\)</span>, <span class="arithmatex">\(n\mathrm{f}\)</span> 表示。例：<span class="arithmatex">\(\mathrm{1s}\)</span>, <span class="arithmatex">\(\mathrm{2p}\)</span>, <span class="arithmatex">\(\mathrm{4d}\)</span> 都是能级。</li>
 <li><strong>原子轨道</strong>：电子在原子核外的一个空间运动状态。每一个能级都对应着若干能量相等的原子轨道（统称为简并轨道）</li>
 <li><strong>电子自旋</strong>：电子自旋值有两种可能：自旋向上或自旋向下，用上箭头和下箭头表示自旋方向相反的电子。</li>
 </ol>
@@ -928,11 +984,7 @@
 <h2 id="电子排布的表示方法">电子排布的表示方法<a class="headerlink" href="#电子排布的表示方法" title="Anchor link to this section for reference">&para;</a></h2>
 <h3 id="电子排布式">电子排布式<a class="headerlink" href="#电子排布式" title="Anchor link to this section for reference">&para;</a></h3>
 <p>对于每一个能级，将该能级上所排布的的 <strong>电子数</strong> 书写在能级的右上角，就是电子排布式。</p>
-<p>一般而言，存在两种书写电子排布式的顺序：</p>
-<ol>
-<li>按照 <strong>先能层 后能级</strong> 的顺序 <strong>从低到高</strong> 依次填写</li>
-<li>按照 <strong>电子填充</strong> 的顺序依次填写</li>
-</ol>
+<p>一般而言，按照 <strong>先能层 后能级</strong> 的顺序 <strong>从低到高</strong> 依次填写。</p>
 <p>例：</p>
 <p>能级顺序：</p>
 <table>
@@ -954,29 +1006,6 @@
 <tr>
 <td>铁 (Fe)</td>
 <td><span class="arithmatex">\(\mathrm{1s^2 2s^2 2p^6 3s^2 3p^6 3d^6 4s^2}\)</span></td>
-</tr>
-</tbody>
-</table>
-<p>电子填充顺序：</p>
-<table>
-<thead>
-<tr>
-<th>元素</th>
-<th>电子排布式</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>氢 (H)</td>
-<td><span class="arithmatex">\(\mathrm{1s^1}\)</span></td>
-</tr>
-<tr>
-<td>氮 (N)</td>
-<td><span class="arithmatex">\(\mathrm{1s^2 2s^2 2p^3}\)</span></td>
-</tr>
-<tr>
-<td>铁 (Fe)</td>
-<td><span class="arithmatex">\(\mathrm{1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6}\)</span></td>
 </tr>
 </tbody>
 </table>
@@ -1059,7 +1088,7 @@ $</p>
 $</p>
 <h2 id="电子排布规律">电子排布规律<a class="headerlink" href="#电子排布规律" title="Anchor link to this section for reference">&para;</a></h2>
 <h3 id="能量最低原理">能量最低原理<a class="headerlink" href="#能量最低原理" title="Anchor link to this section for reference">&para;</a></h3>
-<p>电子排布优先按照使 <strong>总体能量从小到大</strong> 的方式填充各个能级。</p>
+<p>在基态原子中，电子排布优先按照使 <strong>总体能量从小到大</strong> 的方式填充各个能级。</p>
 <p>因为（<a href="#性质">性质 6</a>），电子不一定优先填充低能层高能级的原子轨道，反而会填充高能层低能级的原子轨道，这样可以使总体能量更低。</p>
 <h3 id="泡利原理">泡利原理<a class="headerlink" href="#泡利原理" title="Anchor link to this section for reference">&para;</a></h3>
 <p>每一个原子轨道最多只能容纳两种不同自旋状态的电子。</p>
@@ -1195,7 +1224,7 @@ $</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "content.footnote.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
