@@ -1,4 +1,4 @@
-本页对应 [普通高中教科书 化学 选择性必修2 物质结构与性质 第7-8页](https://book.pep.com.cn/1442001132201/mobile/index.html)。
+本页对应 [普通高中教科书 化学 选择性必修2 物质结构与性质](https://book.pep.com.cn/1442001132201/mobile/index.html) 第7-8页。
 
 前置知识：[原子结构](atomic-structure.md)
 
