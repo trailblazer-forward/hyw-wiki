@@ -1,5 +1,6 @@
 # 施工列表
 
-| 最近更新 | 页面 |
-|----------|------|
-| 7.25     | [原子结构](chemistry/atomic-structure.md) |
+| 最近更新 | 页面                                      |
+|----------|-------------------------------------------|
+| 7.26     | [原子结构](chemistry/atomic-structure.md) |
+| 7.26     | [原子光谱](chemistry/atomic-spectra.md)   |
